@@ -10,6 +10,6 @@ program ini dibuat untuk melanjutkan pembelajaran MVC sekaligus untuk jawaban Re
 Class yang terdapat dalam folder model yaitu `Item.cs` `KeranjangBelanja.cs` dan `Payment.cs`. 
 - class `Item.cs` digunakan untuk get dan set dari nama item dan harganya. 
 - class `Payment.cs` digunakan untuk mengatur logika  dari saldo OnO nya.
-- class `KeranjangBelanja.cs` digunakan untk menampung item,menghapus item kita menggunakan list\
-
+- class `KeranjangBelanja.cs` digunakan untk menampung item,menghapus item kita menggunakan list
+<br \>
 ### 
