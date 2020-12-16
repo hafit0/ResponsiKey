@@ -7,9 +7,15 @@ program ini dibuat untuk melanjutkan pembelajaran MVC sekaligus untuk jawaban Re
 ## Class Diagram
 ![Class Diagram](https://github.com/hafit0/ResponsiKey/blob/main/ClassDiagram1.png)
 ## Penjelasan
-Class yang terdapat dalam folder model yaitu `Item.cs` `KeranjangBelanja.cs` dan `Payment.cs`. 
+Class yang terdapat dalam **folder Model** yaitu `Item.cs` `KeranjangBelanja.cs` dan `Payment.cs`. 
 - class `Item.cs` digunakan untuk get dan set dari nama item dan harganya. 
 - class `Payment.cs` digunakan untuk mengatur logika  dari saldo OnO nya.
-- class `KeranjangBelanja.cs` digunakan untk menampung item,menghapus item kita menggunakan list
-<br \>
-### 
+- class `KeranjangBelanja.cs` digunakan untuk menampung item, menghapus item, menambah item, dan menghitung sub total.
+
+Class yang terdapat pada **folder Controller** yang digunakan untuk mengatur logika yaitu `MainWindowController.cs` dan `PenawaranController.cs`.
+- Class `MainWindowController.cs` mengatur logika menambah dan menghapus item.
+- Class `PenawaranController.cs`mengatur logika menu apa saja yang ada.
+
+Kemudian Ada class `MainWindow.xml.cs` dan `Penawaran.xml.cs`. 
+- `MainWindow.xml.cs`  berfungsi untuk mengatur tampilan awalnya, item yang dipilih dan lainnya kemudian ada pop up nya juga.
+- `Penawaran.xml.cs` berfungsi untuk mengatur tampilan dari pop up nya.
